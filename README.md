@@ -143,9 +143,9 @@ streamlit run app/app.py
 
 Machine Learning & Data Science Enthusiast
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: (https://github.com/AyeshaZafarrr/Predict-Future-Stock-Prices/)
 
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+LinkedIn: https://www.linkedin.com/in/ayesha-zafar-083741358/
 
 Ayesha Zafar
 Machine Learning | Data Science | Python
