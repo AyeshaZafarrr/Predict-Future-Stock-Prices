@@ -1,102 +1,151 @@
-# 📈 Stock Price Prediction using Machine Learning
+# 📈 AI-Powered Stock Price Prediction Dashboard
 
-## Overview
-
-This project predicts the next day's stock closing price using historical stock market data obtained from Yahoo Finance. The project demonstrates the complete machine learning workflow, including data collection, preprocessing, exploratory data analysis, model training, evaluation, and prediction.
+An interactive Machine Learning web application that predicts future stock closing prices while providing real-time stock market analysis and visualization.
 
 ---
 
-## Features
-
-- Data fetched using yfinance API
-- Exploratory Data Analysis (EDA)
-- Feature engineering for time-series forecasting
-- Linear Regression Model
-- Random Forest Regressor
-- Model Comparison
-- Feature Importance Analysis
-- Prediction visualization (Actual vs Predicted)
+## 🚀 Live Demo
+https://stock-price-prediction-obke2urdcxbxinjuhqoumj.streamlit.app/
 
 ---
 
-## Dataset
+## 📌 Features
 
-- Source: Yahoo Finance API (yfinance)
-- Stock: Apple Inc. (AAPL)
-- Features Used:
-  - Open Price
-  - High Price
-  - Low Price
-  - Trading Volume
-- Target:
-  - Next Day Closing Price
+* 📈 Real-time stock data using Yahoo Finance API
+* 🕯 Interactive candlestick charts
+* 📊 20-Day Moving Average visualization
+* 🤖 Machine Learning-based stock price prediction
+* 📉 Historical price analysis
+* 🎯 Clean and responsive Streamlit interface
 
 ---
 
-## Tech Stack
+## 🛠 Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- yfinance
-- Joblib
-
----
-
-## Machine Learning Models
-
-### Linear Regression
-A baseline regression model used for predicting stock prices.
-
-### Random Forest Regressor
-An ensemble model that improves prediction accuracy by capturing non-linear patterns.
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* NumPy
+* Plotly
+* yfinance
+* Joblib
 
 ---
 
-## Evaluation Metrics
+## 📂 Project Structure
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R² Score
-
----
-
-## Project Structure
-
-```text
-Stock-Price-Prediction/
+```
+Predict-Future-Stock-Prices/
 │
-├── data/
-├── notebooks/
-│   └── EDA.ipynb
-│
-├── src/
-│   └── train.py
+├── app/
+│   └── app.py
 │
 ├── models/
-│   ├── linear_regression_model.pkl
-│   └── random_forest_model.pkl
+│   └── linear_regression_model.pkl
 │
-├── outputs/
-├── README.md
+├── notebooks/
+│
 ├── requirements.txt
-└── .gitignore
-Key Learnings
-Working with financial time-series data
-Using APIs for real-world data collection
-Building regression models
-Comparing multiple ML algorithms
-Model evaluation and visualization
-Organizing production-ready ML projects
-Future Improvements
-Real-time stock prediction dashboard (Streamlit)
-Deep learning models (LSTM)
-Multi-stock prediction system
-Live market integration
-Author
+│
+└── README.md
+```
+
+---
+
+## 📊 Supported Stocks
+
+* Apple (AAPL)
+* Microsoft (MSFT)
+* Google (GOOGL)
+* Amazon (AMZN)
+* Tesla (TSLA)
+* Meta (META)
+* NVIDIA (NVDA)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Predict-Future-Stock-Prices.git
+```
+
+Move into the project directory:
+
+```bash
+cd Predict-Future-Stock-Prices
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app/app.py
+```
+
+---
+
+## 📷 Screenshots
+
+### Dashboard
+<img width="950" height="374" alt="image" src="https://github.com/user-attachments/assets/6dbf2217-f95c-4c15-a7fc-0d79a58308d2" />
+
+
+
+
+### Candlestick Chart
+<img width="605" height="382" alt="image" src="https://github.com/user-attachments/assets/edec6ba3-d91b-4520-844e-936fab115967" />
+
+
+
+### AI Prediction
+<img width="959" height="436" alt="image" src="https://github.com/user-attachments/assets/4ef2cd31-e268-49ff-b61a-92e5e4d1f9ca" />
+
+
+
+---
+
+## 📈 Future Improvements
+
+* LSTM Deep Learning Model
+* Technical Indicators (RSI, MACD, Bollinger Bands)
+* News Sentiment Analysis
+* Portfolio Tracking
+* Buy/Sell Signal Generation
+
+---
+
+## 👩‍💻 Author
+
+**Ayesha Zafar**
+
+Machine Learning & Data Science Enthusiast
+
+GitHub: https://github.com/YOUR_USERNAME
+
+LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
 Ayesha Zafar
 Machine Learning | Data Science | Python
